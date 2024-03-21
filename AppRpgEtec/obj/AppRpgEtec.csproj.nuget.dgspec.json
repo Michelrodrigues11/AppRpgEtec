@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\3DS\\PAM3\\AppRpgEtec\\AppRpgEtec\\AppRpgEtec.csproj": {}
+    "D:\\3DS\\MichelThiago\\PAM3\\AppRpgEtec\\AppRpgEtec\\AppRpgEtec.csproj": {}
   },
   "projects": {
-    "D:\\3DS\\PAM3\\AppRpgEtec\\AppRpgEtec\\AppRpgEtec.csproj": {
+    "D:\\3DS\\MichelThiago\\PAM3\\AppRpgEtec\\AppRpgEtec\\AppRpgEtec.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\3DS\\PAM3\\AppRpgEtec\\AppRpgEtec\\AppRpgEtec.csproj",
+        "projectUniqueName": "D:\\3DS\\MichelThiago\\PAM3\\AppRpgEtec\\AppRpgEtec\\AppRpgEtec.csproj",
         "projectName": "AppRpgEtec",
-        "projectPath": "D:\\3DS\\PAM3\\AppRpgEtec\\AppRpgEtec\\AppRpgEtec.csproj",
+        "projectPath": "D:\\3DS\\MichelThiago\\PAM3\\AppRpgEtec\\AppRpgEtec\\AppRpgEtec.csproj",
         "packagesPath": "C:\\Users\\etechas\\.nuget\\packages\\",
-        "outputPath": "D:\\3DS\\PAM3\\AppRpgEtec\\AppRpgEtec\\obj\\",
+        "outputPath": "D:\\3DS\\MichelThiago\\PAM3\\AppRpgEtec\\AppRpgEtec\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

@@ -10,8 +10,8 @@ namespace AppRpgEtec.Services.Usuarios
     public class UsuarioService : Request
     {
         private readonly Request _request;
-        private const string apiUrlBase = 
-            "http://xyz.somee.com/RpgApi/Usuario";
+        private const string apiUrlBase =
+            "https://rpgapi20241pam.azurewebsites.net/Usuarios";
 
         public UsuarioService()
         {
