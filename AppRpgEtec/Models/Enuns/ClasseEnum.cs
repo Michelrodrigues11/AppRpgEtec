@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace AppRpgEtec.Models.Enuns
 {
-    internal class ClasseEnum
+    public enum ClasseEnum
     {
+      NaoSelecionada = 0,
+      Cavaleiro = 1,
+      Mago = 2,
+      Clerigo = 3
     }
 }
