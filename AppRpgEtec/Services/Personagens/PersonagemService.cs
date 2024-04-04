@@ -54,5 +54,7 @@ namespace AppRpgEtec.Services.Personagens
             var result = await _request.DeleteAsync(apiUrlBase + urlComplementar, _token);
             return result;
         }
+
+       
     }
 }

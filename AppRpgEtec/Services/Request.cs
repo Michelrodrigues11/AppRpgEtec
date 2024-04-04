@@ -76,7 +76,8 @@ namespace AppRpgEtec.Services
             string serialized = await response.Content.ReadAsStringAsync();
             TResult result = await Task.Run(() =>
             JsonConvert.DeserializeObject<TResult>(serialized));
-            throw new Exception(serialized);
+            
+            return result;
         }
 
         public async Task<int> DeleteAsync(string uri, string token)
