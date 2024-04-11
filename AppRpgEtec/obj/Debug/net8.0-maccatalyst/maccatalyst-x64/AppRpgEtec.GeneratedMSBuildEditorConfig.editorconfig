@@ -58,6 +58,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Resources.Style
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[D:/3DS/MichelThiago/AppRpgEtec/AppRpgEtec/Views/Armas/ListagemView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Views.Armas.ListagemView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Armas\ListagemView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Armas\ListagemView.xaml
+
 [D:/3DS/MichelThiago/AppRpgEtec/AppRpgEtec/Views/Disputas/ListagemView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Views.Disputas.ListagemView.xaml
