@@ -37,9 +37,11 @@
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
-        <ShellContent Title="Tempo Real"  Icon="menuusuarios.svg"
-                  ContentTemplate="{DataTemplate viewsUsuarios:ListagemView}" />
-
+        <ShellContent Title="Usuários"  Icon="menuusuarios.svg"
+                  ContentTemplate="{DataTemplate viewsUsuarios:LocalizacaoView}" />
+        
+        
+        
         <ShellContent Title="Personagens" Icon="menupersonagens.svg" 
                   ContentTemplate="{DataTemplate viewsPersonagens:ListagemView}" />
 
@@ -60,7 +62,9 @@
 
     <ShellContent Title="Sair" Icon="exit.svg" ContentTemplate="{DataTemplate viewsUsuarios:LoginView}"
                   Shell.FlyoutBehavior="Disabled"/>
-
+    
+    
+    
     <Shell.FlyoutFooter>
         <Label x:Name="lblLogin" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Center" />
     </Shell.FlyoutFooter>

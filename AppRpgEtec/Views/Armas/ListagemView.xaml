@@ -3,6 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppRpgEtec.Views.Armas.ListagemView"
              Title="ListagemView">
+
+
+    <Shell.TitleView>
+        <Button Command="{Binding NovaArmaCommand}" Text="Novo" HorizontalOptions="End"></Button>
+    </Shell.TitleView>
+
     <ScrollView>
         <VerticalStackLayout Padding="10, 0, 0, 0" VerticalOptions="FillAndExpand">
             <ListView x:Name="listView" HasUnevenRows="True" ItemsSource="{Binding Armas}" >

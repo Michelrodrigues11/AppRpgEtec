@@ -3,12 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppRpgEtec.Views.Personagens.ListagemView"
              Title="ListagemView">
+
+    <Shell.TitleView>
+        <Button Command="{Binding NovoPersonagem}" Text="Novo" HorizontalOptions="End"></Button>
+    </Shell.TitleView>
+    
     <ScrollView>
         <VerticalStackLayout Padding="10, 0, 0, 0" VerticalOptions="FillAndExpand">
-            <ListView x:Name="listView" HasUnevenRows="True" ItemsSource="{Binding Personagens}" >
+            <ListView x:Name="listView" HasUnevenRows="True" ItemsSource="{Binding Personagens}" SelectedItem="{Binding PersonagemSelecionado}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
+                            <ViewCell.ContextActions>
+                                <MenuItem Text="Remover" IsDestructive="True"
+                                          Command="{Binding Path=BindingContext.RemoverPersonagemCommand, Source={x:Reference ListView}}"
+                                          CommandParameter="{Binding .}"></MenuItem>
+                            </ViewCell.ContextActions>
                             <StackLayout Padding="10">
                                 <Label Text="{Binding Nome}" FontSize="18" FontAttributes="Bold"/>
                                 <Label Text="{Binding PontosVida}" FontSize="14"/>
