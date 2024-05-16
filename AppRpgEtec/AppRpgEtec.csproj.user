@@ -35,6 +35,9 @@
     <MauiXaml Update="Views\Usuarios\CadastroView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\Usuarios\ImagemUsuarioView.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\Usuarios\ListagemView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
